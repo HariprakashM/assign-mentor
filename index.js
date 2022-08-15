@@ -10,10 +10,10 @@ app.use(cors({
     orgin: "*"
 }));
  
-//.......................Default Page...........................//
-app.get("/", (req, res) =>
-  res.send(`Server Running successfully.....!`)
-);
+// //.......................Default Page...........................//
+// app.get("/", (req, res) =>
+//   res.send(`Server Running successfully.....!`)
+// );
 
 //.......................Student Creation...........................//
 app.post("/student", async function (request, response) {
